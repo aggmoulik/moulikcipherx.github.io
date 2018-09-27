@@ -1,4 +1,4 @@
-{
+ {
   "name": "gatsby-starter-kit",
   "description": "A set of starters for Gatsby.js v.2",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint src",
-    "deploy": "gatsby build && gh-pages -b master -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -b master -d public"
   },
   "dependencies": {
     "@react-website-themes/default": "^0.0.17",
