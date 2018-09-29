@@ -41,6 +41,7 @@ const BlogPage = props => {
     siteTitle,
     siteDescription,
     siteLanguage,
+    authorName,
   } = config;
 
   return (
@@ -50,7 +51,7 @@ const BlogPage = props => {
         <Menu items={menuItems} />
       </Header>
       <Article>
-        <Blog items={posts} author={'greg'} metaIcons={metaIcons} />
+        <Blog items={posts} author={authorName} metaIcons={metaIcons} />
       </Article>
       <Footer links={footerLinksHTML} copyright={copyrightHTML} />
       <Seo

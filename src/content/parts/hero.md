@@ -2,8 +2,10 @@
 name: hero
 ---
 
-# Welcome to GatsbyJS Starter Kit
+# Welcome to PyJaipur
 
-It's a series of starters for GatsbyJS: Minimal, Equipped, Themed, Website and Blog. It's 5 in 1!
+It's a Official Python User Group of Jaipur.
+
+<!-- ![](../images/PyJaipur.png) -->
 
 [more](./about)

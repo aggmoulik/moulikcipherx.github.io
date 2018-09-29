@@ -1,23 +1,48 @@
-## LICENSE
+# Local Installation
 
-MIT License
+## Dependencies required to run Gatsby Server
 
-Copyright (c) 2018 greg lobinski
+- NodeJs
+- Gatsby Cli
+- Yarn
+- Git
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Installation Dependencies
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Gatsby Cli
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```sh
+npm install --global gatsby-cli
+````
+
+## Yarn
+
+```sh
+https://yarnpkg.com/lang/en/docs/install/
+````
+
+## Steps
+
+Make sure you have the dependencies mentioned above installed before proceeding further.
+
+- **Step 0** - Clone the repository ( from the development branch ) and cd into directory
+```sh
+git clone -b dev https://github.com/moulikcipherX/moulikcipherx.github.io.git
+cd moulikcipherX.github.io
+````
+**Note** : If you want to contribute, first fork the original repository and clone the forked repository into your local machine followed by cd into the directory
+
+```sh
+git clone -b dev https://github.com/USERNAME/moulikcipherX.github.io
+cd moulikcipherX.github.io
+````
+
+- **Step 1** - Install the dependencies
+```sh
+yarn install
+````
+
+- **Step 2** - Launch Gatsby localhost
+```sh
+gatsby develop
+````

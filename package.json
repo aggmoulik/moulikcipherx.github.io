@@ -1,6 +1,6 @@
  {
-  "name": "gatsby-starter-kit",
-  "description": "A set of starters for Gatsby.js v.2",
+  "name": "PyJaipur",
+  "description": "Python User Group Jaipur",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

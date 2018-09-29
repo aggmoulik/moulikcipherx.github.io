@@ -1,25 +1,28 @@
 const base = {
-  name: 'Gatsby Starter Kit',
-  url: 'https://github.com/greglobinski/gatsby-starter-kit'
+  name: 'PyJaipur',
+  url: 'https://github.com/pyjaipur'
 };
 
 const config = {
   /* meta tags */
-  siteTitle: `${base.name} - a series of GatsbyJS starters`,
+  siteTitle: `${base.name}`,
   siteTitlePostfix: ` - ${base.name}`,
   siteDescription: `${
     base.name
-  } is a series starters: Minimal, Equipped, Themed, Website, Blog.`,
+  } `,
   siteImage: 'preview.jpg',
   siteLanguage: 'en',
 
   /* site header */
   headerTitle: `${base.name}`,
-  headerSubTitle: 'a series of starters for GatsbyJS',
+  headerSubTitle: 'Python User Group Jaipur',
 
   /* url */
-  siteUrl: base.url
+  siteUrl: base.url,
   // pathPrefix: '',
+
+  //author
+  authorName: 'PyJaipur',
 };
 
 module.exports = config;
